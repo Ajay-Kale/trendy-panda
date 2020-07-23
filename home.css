@@ -1,0 +1,24 @@
+.home-main-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  @media (max-width: 900px) {
+    .brand-logo-name {
+      display: block;
+    }
+  
+    .brand-logo-name {
+        display: none;
+    }
+    .main-nav {
+      display: none;
+    }
+  }
+
+.SocialMediaIcon{
+  height: 26px;
+  width: 26px;
+}
